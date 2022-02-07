@@ -1,0 +1,80 @@
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 3px;
+  margin-top: 30px;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  height: 1500;
+  background-image: url("slider/Kantor\ SCA.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: 0 -200;
+  color: #ffffff;
+}
+
+.jumbotron img {
+  width: 200px;
+  border: 5px solid #fdfcfc;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0, 5);
+}
+
+,
+jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+  height: 600px;
+  background-color: rgb(176, 247, 237);
+}
+
+.display-4 {
+  font-size: 30;
+  font-weight: bold;
+  color: red;
+}
+
+.lead {
+  height:400px
+  margin-bottom:5;
+  text-color: #ffffff;
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
+  position: relative;
+  padding-bottom: 5rem;
+  background-attachment: fixed;
+}
+
+.nav-link {
+  font-family: Tahoma;
+}
+
+#profil {
+  background-color: rgb(176, 247, 237);
+}
+
+section {
+  padding-top: 5rem;
+  height: fit-content;
+}
+
+#partner {
+  position: relative;
+  background-image: url("slider/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 150;
+  color: white;
+  display:flex;
+}
+
+.card {
+  position: center;
+  background-color: transparent;
+  display: flex;
+}
